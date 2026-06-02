@@ -47,3 +47,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.jar {
+	doLast {
+		println("✅ JAR файл создан: ${archiveFile.get().asFile.absolutePath}")
+	}
+}
