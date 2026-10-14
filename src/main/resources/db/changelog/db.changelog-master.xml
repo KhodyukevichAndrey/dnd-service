@@ -5,5 +5,6 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.23.xsd">
 
-    <include file="db/changelog/01_06_2026_test_table/create_test_table.xml"/>
+    <include file="db/changelog/01_06_2026_test_table/14_10_2026_15_00_create_table_with_races.xml"/>
+    <include file="db/changelog/01_06_2026_test_table/14_10_2026_15_30_add_race_values.xml"/>
 </databaseChangeLog>

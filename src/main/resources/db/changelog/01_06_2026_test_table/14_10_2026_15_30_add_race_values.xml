@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.23.xsd">
+
+    <changeSet id="1" author="Khodyukevich_add_race_values_15_30_14_10_2026">
+        <insert tableName="race">
+            <column name="name" value="Aasimar"/>
+            <column name="visual_name" value="Аасимар"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Hexblood"/>
+            <column name="visual_name" value="Ведьмовская кровь"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Reborn"/>
+            <column name="visual_name" value="Возрожденный"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Lupin"/>
+            <column name="visual_name" value="Волколак"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Gnome"/>
+            <column name="visual_name" value="Гном"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Goliath"/>
+            <column name="visual_name" value="Голиаф"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Dhampir"/>
+            <column name="visual_name" value="Дампир"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Dwarf"/>
+            <column name="visual_name" value="Дварф"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Dragonborn"/>
+            <column name="visual_name" value="Драконорожденный"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Kalashtar"/>
+            <column name="visual_name" value="Калаштар"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Warforged"/>
+            <column name="visual_name" value="Кованый"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Khoravar"/>
+            <column name="visual_name" value="Кхоравар"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Orc"/>
+            <column name="visual_name" value="Орк"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Halfling"/>
+            <column name="visual_name" value="Полурослик"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Tiefling"/>
+            <column name="visual_name" value="Тифлинг"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Human"/>
+            <column name="visual_name" value="Человек"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Changeling"/>
+            <column name="visual_name" value="Ченжлинг"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Shifter"/>
+            <column name="visual_name" value="Шифтер"/>
+        </insert>
+
+        <insert tableName="race">
+            <column name="name" value="Elf"/>
+            <column name="visual_name" value="Эльф"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
